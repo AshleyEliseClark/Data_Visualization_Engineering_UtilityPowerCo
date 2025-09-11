@@ -15,6 +15,7 @@ This project highlights both technical skills (SQL, DAX, data modeling, Power BI
 ---
 
 ## 📂 Repository Structure
+
 '''
 UtilityPowerCo-Dashboard/
 │
@@ -44,4 +45,5 @@ UtilityPowerCo-Dashboard/
 │ └── medallion_architecture.md # Bronze/Silver/Gold notes
 │
 └── README.md
+
 '''
