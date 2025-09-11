@@ -12,38 +12,4 @@ Using the Medallion Architecture (Bronze → Silver → Gold), raw synthetic dat
 
 This project highlights both technical skills (SQL, DAX, data modeling, Power BI) and business storytelling, showing how analytics can improve grid reliability, forecast demand, and support customer satisfaction.
 
----
 
-## 📂 Repository Structure
-
-'''
-UtilityPowerCo-Dashboard/
-│
-├── data/ # Synthetic CSV datasets
-│ ├── outages.csv
-│ ├── consumption.csv
-│ ├── weather.csv
-│ └── customer_service.csv
-│
-├── power_queries/ # Power Query M scripts (ETL layer)
-│ ├── All_Queries.m
-│ └── power_queries.txt
-│
-├── dax_measures/ # DAX measures in markdown
-│ └── DAX_measures.md
-│
-├── reports/ # Power BI dashboard
-│ └── UtilityPowerCo.pbix
-│
-├── docs/ # Supporting docs & visuals
-│ ├── data_model.png # Schema diagram
-│ ├── dashboard_screenshots/ # Export screenshots of each page
-│ │ ├── outages_weather.png
-│ │ ├── energy_demand.png
-│ │ ├── customer_service.png
-│ │ └── executive_summary.png
-│ └── medallion_architecture.md # Bronze/Silver/Gold notes
-│
-└── README.md
-
-'''
