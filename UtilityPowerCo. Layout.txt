@@ -21,5 +21,6 @@
 │   │   └── executive_summary.png
 │   └── medallion_architecture.md # short note on bronze/silver/gold
 │
-├── README.md                     # project overview
-└── LICENSE                       # optional
+└──README.md                     # project overview
+
+
