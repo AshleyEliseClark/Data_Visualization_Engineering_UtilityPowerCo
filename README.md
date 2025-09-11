@@ -14,7 +14,7 @@ Customer service responsiveness and satisfaction levels
 This project highlights both technical skills (SQL, DAX, data modeling, Power BI) and business storytelling, showing how analytics can improve grid reliability, forecast demand, and support customer satisfaction.
 
 ## 📂 Repository Structure
-/UtilityPowerCo-Dashboard/
+("/UtilityPowerCo-Dashboard/
 │
 ├── data/ # Synthetic CSV datasets
 │ ├── outages.csv
@@ -41,4 +41,4 @@ This project highlights both technical skills (SQL, DAX, data modeling, Power BI
 │ │ └── executive_summary.png
 │ └── medallion_architecture.md # Bronze/Silver/Gold notes
 │
-└── README.md
+└── README.md")
