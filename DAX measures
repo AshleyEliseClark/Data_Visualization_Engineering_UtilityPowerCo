@@ -1,0 +1,31 @@
+# DAX Measures for Utility Power Co. Dashboard
+
+## Outages
+AvgOutageDuration = AVERAGE(Outages[Duration_Hours])
+TotalCustomersAffected = SUM(Outages[Customers_Affected])
+WeatherOutagePct =
+DIVIDE(
+    COUNTROWS(FILTER(Outages, Outages[Cause] = "Weather")),
+    COUNTROWS(Outages)
+)
+
+## Consumption
+TotalConsumption = SUM(Consumption[kWh_Consumed])
+TotalBilling = SUM(Consumption[Bill_Amount_USD])
+PeakDemand = MAX(Consumption[Peak_Demand_kW])
+AvgMonthlyTemp = AVERAGE(Consumption[Temperature_Avg_F])
+AvgBillPerCustomer =
+DIVIDE(
+    SUM(Consumption[Bill_Amount_USD]),
+    DISTINCTCOUNT(Consumption[Customer_ID])
+)
+
+## Customer Service
+AvgResolutionTime = AVERAGE(Customer_Service[Resolution_Time_Minutes]) / 60
+AvgSatisfaction = AVERAGE(Customer_Service[Customer_Satisfaction_Score])
+TicketsPerOutage =
+DIVIDE(
+    COUNTROWS(Customer_Service),
+    DISTINCTCOUNT(Customer_Service[Outage_ID])
+)
+TotalTickets = COUNTROWS(Customer_Service)
