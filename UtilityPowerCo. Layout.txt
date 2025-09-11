@@ -6,21 +6,28 @@
 │   ├── weather.csv
 │   └── customer_service.csv
 │
-├── reports/                      # Power BI files
-│   └── UtilityPowerCo.pbix
+├── power_queries/                 # NEW: Power Query M scripts
+│   ├── consumption_query.m
+│   ├── outages_query.m
+│   ├── weather_query.m
+│   └── customer_service_query.m
 │
-├── dax_measures/                 # all measures in markdown
+├── dax_measures/                  # all measures in markdown
 │   └── DAX_measures.md
 │
-├── docs/                         # supporting docs & visuals
-│   ├── data_model.png            # schema diagram
-│   ├── dashboard_screenshots/    # export screenshots of each page
+├── reports/                       # Power BI files
+│   └── UtilityPowerCo.pbix
+│
+├── docs/                          # supporting docs & visuals
+│   ├── data_model.png             # schema diagram
+│   ├── dashboard_screenshots/     # export screenshots of each page
 │   │   ├── outages_weather.png
 │   │   ├── energy_demand.png
 │   │   ├── customer_service.png
 │   │   └── executive_summary.png
-│   └── medallion_architecture.md # short note on bronze/silver/gold
+│   └── medallion_architecture.md  # short note on bronze/silver/gold
 │
-└──README.md                     # project overview
+└── README.md                      # project overview
+
 
 
