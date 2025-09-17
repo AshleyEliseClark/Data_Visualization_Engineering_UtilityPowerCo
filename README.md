@@ -5,7 +5,7 @@
 This project simulates the work of a Data Visualization Engineer at a major power utility company (Alabama Power). It demonstrates how to design and implement a modern analytics solution that integrates multiple data sources (outages, energy consumption, weather, customer service) into a unified data model. Using the Medallion Architecture (Bronze → Silver → Gold), raw synthetic data was transformed into clean, business-ready tables and KPIs.  This project highlights both technical skills (SQL, DAX, data modeling, Power BI) and business storytelling, showing how analytics can improve grid reliability, forecast demand, and support customer satisfaction. 
 
 
-🧩 Problem Statement
+Problem Statement
 
 Alabama Power manages a vast grid across diverse regions. They face challenges with:
 
@@ -19,7 +19,7 @@ Monitoring customer service responsiveness
 
 Current reporting is fragmented, reactive, and lacks a unified view.
 
-🎯 Business Questions
+Business Questions
 
 Outages: Where and when are outages happening most frequently? Can we identify patterns by region, time, or weather?
 
@@ -29,7 +29,7 @@ Weather: What external factors (e.g., storms, heatwaves) correlate with outages 
 
 Customer Service: How responsive is our customer service during outages? Are we meeting service-level expectations?
 
-🏗 Data Architecture – Medallion Layers
+Data Architecture – Medallion Layers
 
 Bronze (Raw): Outages, Weather, Consumption, Customer Service CSVs
 
@@ -37,7 +37,7 @@ Silver (Cleaned): Standardized keys (Date, Region, YearMonth), relationships acr
 
 Gold (KPIs): DAX measures for outages, consumption, and customer service
 
-📊 Dashboards
+Dashboards
 
 The solution includes 4 Power BI pages:
 
