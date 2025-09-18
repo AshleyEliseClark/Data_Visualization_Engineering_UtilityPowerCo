@@ -29,7 +29,7 @@ Weather: What external factors (e.g., storms, heatwaves) correlate with outages 
 
 Customer Service: How responsive is our customer service during outages? Are we meeting service-level expectations?
 
-Data Architecture – Medallion Layers
+**Data Architecture – Medallion Layers**
 
 Bronze (Raw): Outages, Weather, Consumption, Customer Service CSVs
 
